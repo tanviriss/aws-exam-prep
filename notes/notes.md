@@ -62,3 +62,15 @@ Hybrid Cloud:
 - Elasticity: ability to scale out and scale-in when needed
 - High-availability and fault-tolerance: build across data centers
 - Agility: rapidly develop, test and launch software applications
+
+## Example of Cloud Computing Types
+
+- Infrastructure as a Service:
+  - Amazon EC2 (on AWS)
+  - GCP, Azure, Rackspace, Digital Ocean, Linode
+- Platform as a Service:
+  - Elastic Beanstalk (on AWS)
+  - Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
+- Software as a Service:
+  - Many AWS services (ex: Rekognition for Machine Learning)
+  - Google Apps (Gmail), Dropbox, Zoom
