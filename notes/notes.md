@@ -74,3 +74,18 @@ Hybrid Cloud:
 - Software as a Service:
   - Many AWS services (ex: Rekognition for Machine Learning)
   - Google Apps (Gmail), Dropbox, Zoom
+
+## Aws Regions
+
+- AWS has Regions all around the world
+- Names can be us-east-I, eu-west-3...
+- A region is a cluster of data centers
+- Most AWS services are region-scoped
+- Each region has many availability zones (usually 3, min is 3, max is 6).
+- Each availability zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity
+
+## AWS Points of Presence (Edge Locations)
+
+- Amazon has 400+ Points of Presence (400+ Edge Locations & 10+
+- Regional Caches) in 90+ cities across 40+ countries
+- Content is delivered to end users with lower latency
