@@ -63,6 +63,12 @@ Hybrid Cloud:
 - High-availability and fault-tolerance: build across data centers
 - Agility: rapidly develop, test and launch software applications
 
+## 3 Pricing of AWS Cloud
+
+- Computer
+- Storage
+- Data Transfer out of AWS Cloud
+
 ## Example of Cloud Computing Types
 
 - Infrastructure as a Service:
@@ -89,3 +95,8 @@ Hybrid Cloud:
 - Amazon has 400+ Points of Presence (400+ Edge Locations & 10+
 - Regional Caches) in 90+ cities across 40+ countries
 - Content is delivered to end users with lower latency
+
+## Shared Responsibility
+
+- **CUSTOMER** = RESPONSIBILITY FOR THE SECURITY <u>IN</u> THE CLOUD
+- **AWS** = RESPONSIBILITY FOR THE SECURITY <u>OF</u> THE CLOUD
