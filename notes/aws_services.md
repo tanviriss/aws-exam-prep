@@ -27,3 +27,17 @@ Identity and Access Management
 - Action: list of actions this policy allows or denies
 - Resource: list of resources to which the actions applied to
 - Condition: conditions for when this policy is in effect (optional)
+
+## IAM Password Policy
+
+- Strong passwords = higher security for your account
+- In AWS, you can setup a password policy:
+  - Set a minimum password length
+  - Require specific character types:
+    - including uppercase letters
+    - lowercase letters
+    - numbers
+    - non-alphanumeric characters
+- Allow all IAM users to change their own passwords
+- Require users to change their password after some time (password expiration)
+- Prevent password re-use
