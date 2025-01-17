@@ -41,3 +41,15 @@ Identity and Access Management
 - Allow all IAM users to change their own passwords
 - Require users to change their password after some time (password expiration)
 - Prevent password re-use
+
+## IAM Roles for Services
+
+- Some AWS service will need to perform actions on your behalf
+- To do so, we will assign permissions to AWS services with IAM Roles
+- Common roles:
+  - EC2 Instance Roles
+  - Lambda Function Roles
+  - Roles for CloudFormation
+**These roles are not used by people, but by AWS services**
+
+
