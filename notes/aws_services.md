@@ -83,3 +83,24 @@ Identity and Access Management
 - Rotate all your keys often
 - Use IAM tools to apply appropriate permissions
 - Analyze access patterns & review permissions
+
+
+# EC2
+- EC2 is one of the most popular of AWS' offering
+- EC2 = Elastic Compute Cloud = Infrastructure as a Service
+- It mainly consists in the capability of :
+- Renting virtual machines (EC2)
+- Storing data on virtual drives (EBS)
+- Distributing load across machines (ELB)
+- Scaling the services using an auto-scaling group (ASG)
+
+## EC2 sizing & configuration options
+- Operating System (OS): Linux, Windows or Mac OS
+- How much compute power & cores (CPU)
+- How much random-access memory (RAM)
+- How much storage space:
+  - Network-attached (EBS & EFS)
+  - hardware (EC2 Instance Store)
+- Network card: speed of the card, Public IP address
+- Firewall rules: security group
+- Bootstrap script (configure at first launch): EC2 User Data
