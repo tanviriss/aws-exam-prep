@@ -105,7 +105,7 @@ Identity and Access Management
 - Firewall rules: security group
 - Bootstrap script (configure at first launch): EC2 User Data
 
-# EC2 User Data
+## EC2 User Data
 - It is possible to bootstrap our instances using an EC2 User data script.
 - bootstrapping means launching commands when a machine starts
 - That script is only run once at the instance first start
@@ -115,3 +115,26 @@ Identity and Access Management
   - Downloading common files from the internet
   - Anything you can think of
 - The EC2 User Data Script runs with the root user
+
+## EC2 Instance Types
+Has the following naming convention: **m5.2xlarge**
+- m: instance class
+- 5: generation (AWS improves them over time)
+- 2xlarge: size within the instance class
+
+**Compute Optimized**
+- Great for compute-intensive tasks that require high performance processors:
+  - Batch processing workloads
+  - Media transcoding
+  - High performance web servers
+  - High performance computing (HPC)
+  - Scientific modeling & machine learning
+  - Dedicated gaming servers
+
+**Memory Optimized**
+- Fast performance for workloads that process large data sets in memory
+- Use cases:
+  - High performance, relational/non-relational databases
+  - Distributed web scale cache stores
+  - In-memory databases optimized for Bl (business intelligence)
+  - Applications performing real-time processing of big unstructured data
