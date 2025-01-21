@@ -129,3 +129,8 @@ Hybrid Cloud:
 - 80 = HTTP - access unsecured websites
 - 443 = HTTPS - access secured websites
 - 3389 = RDP (Remote Desktop Protocol) - log into a Windows instance
+
+  
+## SSH Summary Table
+<img width="1307" alt="image" src="https://github.com/user-attachments/assets/e57be4c3-3cd9-49a9-9b12-098fdba69ede" />
+
