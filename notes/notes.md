@@ -132,5 +132,9 @@ Hybrid Cloud:
 
   
 ## SSH Summary Table
-<img width="1307" alt="image" src="https://github.com/user-attachments/assets/e57be4c3-3cd9-49a9-9b12-098fdba69ede" />
+- SSH is one of the most important function. It allows you to control a remote machine, all using the command line.
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/e57be4c3-3cd9-49a9-9b12-098fdba69ede" />
+- Command for mac/linux:
+  - ssh -i EC2Tutorial.pem(this is the pem file from the instance) ec2-user@3.250.26.200(this is the public ipv4 server)
+
 
