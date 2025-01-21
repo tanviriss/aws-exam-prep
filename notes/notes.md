@@ -120,3 +120,12 @@ Hybrid Cloud:
 - If your application gives a "connection refused" error, then it's an application error or it's not launched
 - All inbound traffic is blocked by default
 - All outbound traffic is authorised by default
+
+## Classic Ports
+
+- 22 = SSH (Secure Shell) - log into a Linux instance
+- 21 = FTP (File Transfer Protocol) - upload files into a file share
+- 22 = SFTP (Secure File Transfer Protocol) - upload files using SSH
+- 80 = HTTP - access unsecured websites
+- 443 = HTTPS - access secured websites
+- 3389 = RDP (Remote Desktop Protocol) - log into a Windows instance
