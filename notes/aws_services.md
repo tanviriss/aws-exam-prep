@@ -149,10 +149,26 @@ Has the following naming convention: **m5.2xlarge**
   - Distributed file systems
 
 ## EC2 Purchasing Options
-- On-Demand Instances - short workload, predictable pricing, pay by second
-- Reserved (1 & 3 years)
-- Reserved Instances - long workloads
-- Convertible Reserved Instances - long workloads with flexible instances
+**On-Demand Instances - short workload, predictable pricing, pay by second**
+- Pay for what you use:
+  - Linux or Windows - billing per second, after the first minute
+  - All other operating systems - billing per hour
+- Has the highest cost but no upfront payment
+- No long-term commitment
+- Recommended for short-term and un-interrupted workloads, where you can't predict how the application will behave
+**Reserved Instances**
+- Up to 72% discount compared to On-demand
+- You reserve a specific instance attributes (Instance Type, Region, Tenancy, OS)
+- Reservation Period - 1 year (+discount) or 3 years (+ + +discount)
+- Payment Options - No Upfront (+), Partial Upfront (++), All Upfront (+++)
+- Reserved Instance's Scope - Regional or Zonal (reserve capacity in an AZ)
+- Recommended for steady-state usage applications (think database)
+- You can buy and sell in the Reserved Instance Marketplace
+- Convertible Reserved Instances:
+  - Can change the EC2 instance type, instance family, OS, scope and tenancy
+  - Up to 66% discount
+
+
 - Savings Plans (| & 3 years) -commitment to an amount of usage, long workload
 - Spot Instances - short workloads, cheap, can lose instances (less reliable)
 - Dedicated Hosts - book an entire physical server, control instance placement
