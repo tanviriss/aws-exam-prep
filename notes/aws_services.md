@@ -156,6 +156,7 @@ Has the following naming convention: **m5.2xlarge**
 - Has the highest cost but no upfront payment
 - No long-term commitment
 - Recommended for short-term and un-interrupted workloads, where you can't predict how the application will behave
+  
 **Reserved Instances**
 - Up to 72% discount compared to On-demand
 - You reserve a specific instance attributes (Instance Type, Region, Tenancy, OS)
@@ -168,9 +169,21 @@ Has the following naming convention: **m5.2xlarge**
   - Can change the EC2 instance type, instance family, OS, scope and tenancy
   - Up to 66% discount
 
+**Savings Plans (| & 3 years) -commitment to an amount of usage, long workload**
 
-- Savings Plans (| & 3 years) -commitment to an amount of usage, long workload
-- Spot Instances - short workloads, cheap, can lose instances (less reliable)
+**Spot Instances - short workloads, cheap, can lose instances (less reliable)**
+- Can get a discount of up to 90% compared to On-demand
+- Instances that you can "lose" at any point of time if your max price is less than the current spot price
+- The MOST cost-efficient instances in AWS
+- Useful for workloads that are resilient to failure:
+  - Batch jobs
+  - Data analysis
+  - Image processing
+  - Any distributed workloads
+  - Workloads with a flexible start and end time
+- Not suitable for critical jobs or databases
+
+
 - Dedicated Hosts - book an entire physical server, control instance placement
 - Dedicated Instances - no other customers will share your hardware
 - Capacity Reservations - reserve capacity in a specific AZ for any duration
