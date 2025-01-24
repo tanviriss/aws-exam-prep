@@ -194,7 +194,23 @@ Has the following naming convention: **m5.2xlarge**
   - Software that requires specific server-bound licenses.  
   - Compliance and regulatory requirements where physical isolation is necessary.
 
-- Dedicated Instances - no other customers will share your hardware
-- Capacity Reservations - reserve capacity in a specific AZ for any duration
+**Dedicated Instances - no other customers will share your hardware**
+- Instances run on **dedicated hardware**, physically isolated from other AWS customers.  
+- Automatically provisions dedicated infrastructure without manual server management.  
+- Charged based on the **instance type** and usage.  
+- Does not provide visibility into sockets or cores like Dedicated Hosts.  
+- **Recommended for:**  
+  - Workloads needing physical isolation.  
+  - Applications with strict compliance requirements.  
+
+**Capacity Reservations - reserve capacity in a specific AZ for any duration**
+- Reserve capacity in a specific **Availability Zone (AZ)** for any duration.  
+- Ensures capacity is available when you need it, even during high-demand periods.  
+- Can be combined with Savings Plans or Reserved Instances for cost savings.  
+- No long-term commitment; you can cancel anytime.  
+- **Recommended for:**  
+  - Applications with short-term capacity needs.  
+  - Ensuring resource availability during important events like launches or migrations.  
+  - Critical applications requiring guaranteed capacity.  
 
 
