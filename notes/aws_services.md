@@ -184,7 +184,16 @@ Has the following naming convention: **m5.2xlarge**
 - Not suitable for critical jobs or databases
 
 
-- Dedicated Hosts - book an entire physical server, control instance placement
+**Dedicated Hosts - book an entire physical server, control instance placement**
+- Book an entire physical server for your use.  
+- Control over **instance placement** (useful for licensing requirements).  
+- Allows you to run your workloads on **dedicated hardware**.  
+- Provides **visibility into sockets, cores, and host ID** for compliance or licensing needs.  
+- Most expensive purchasing option.  
+- **Recommended for:**  
+  - Software that requires specific server-bound licenses.  
+  - Compliance and regulatory requirements where physical isolation is necessary.
+
 - Dedicated Instances - no other customers will share your hardware
 - Capacity Reservations - reserve capacity in a specific AZ for any duration
 
